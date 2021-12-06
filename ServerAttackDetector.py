@@ -55,6 +55,3 @@ class ServerAttackDetector:
             else:
                 a += 1
                 continue
-            
-a = ServerAttackDetector('hw4testfile.csv')
-print(a.detect())
